@@ -34,8 +34,8 @@ jobs:
       uses: gradle/gradle-build-action@67421db6bd0bf253fb4bd25b31ebb98943c375e1
       with:
         arguments: build
-    - name: capture build artifacts (mcxr-play-yvr)
+    - name: capture build artifacts (immersivemc)
       uses: actions/upload-artifact@v2
       with:
         name: immersivemc
-        path: fabric/build/libs/immersivemc-1.1.2-fabric.jar
+        path: fabric/build/libs/immersivemc-1.1.2.jar
